@@ -75,3 +75,8 @@ app.get('/voteCount',(req,res)=>{
         res.status(500);
     })
 });
+app.post('/signup',(req,res)=>{
+    const {name,email,hashedPass}=req.body;
+    
+
+})
