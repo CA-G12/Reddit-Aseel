@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=IBM+Plex+Sans&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Hubballi', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(205, 205, 205);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.3rem;
+    position:fixed;
+    width: 100%;
+    font-size: medium;
+    background-color: rgb(249, 249, 249);
+}
+.logo,.signIn{
+   padding:0.7rem;
+}
+
+.signIn{
+    background-color: rgb(214, 99, 38);
+    color:white;
+    font-size: small;
+    border-radius: 25px;
+}
+
+.show-posts{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width:50%;
+    margin-top: 6rem;
+    padding:2rem;
+    background-color: rgb(249, 249, 249);
+}
+
+.post{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.vote-section{
+    margin-right :1rem;
+    align-self: center;
+}
+.vote{
+    color:grey;
+    cursor: pointer;
+}
+.vote:hover{
+    color:orange;
+}
